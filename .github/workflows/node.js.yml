@@ -32,7 +32,7 @@ jobs:
         if git diff-index --quiet HEAD --; then
           exit
         fi
-        git commit -m "Commit the screenshot"
+        git commit -m "Committhescreenshot"
         # Rebase if the branch has meanwhile changed (fail if there are automatically irresolvable merge conflicts)
         git pull --rebase
         # Push the commit to the repository associated with this workflow
